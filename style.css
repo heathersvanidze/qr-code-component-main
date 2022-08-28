@@ -16,22 +16,36 @@ p {
 /* MOBILE STYLES */
 
 body {
-    width:375px;
     text-align: center;
+    background-color:#d6e2f0;
+}
+
+main {
+    width:375px;
+    margin:0 auto;
 }
 
 .qr-card {
     background-color: white;
-    height: 275px;
-    display:inline;
+    width:350px;
+    margin:auto;
+    padding:20px 10px 10px 10px;
+    border-radius:5%;
 }
 
 img {
-    border-radius:10%;
+    border-radius:5%;
     width:325px;
 }
 
 figure {
     margin:auto;
-    margin-top:25px;
+}
+
+.text {
+    padding: 15px 0 15px 0;
+}
+
+.attribution {
+    margin:20px;
 }
